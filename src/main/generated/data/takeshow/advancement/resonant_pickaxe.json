@@ -1,0 +1,32 @@
+{
+  "parent": "takeshow:root",
+  "criteria": {
+    "has_resonant_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "takeshow:resonant_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.takeshow.resonant_pickaxe.description"
+    },
+    "icon": {
+      "id": "takeshow:resonant_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.takeshow.resonant_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_resonant_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

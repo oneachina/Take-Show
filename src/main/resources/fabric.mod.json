@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "takeshow",
+  "version": "${version}",
+  "name": "TakeShow",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/takeshow/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "cn.oneachina.takeshow.client.TakeshowDataGenerator"
+    ],
+    "client": [
+      "cn.oneachina.takeshow.client.TakeshowClient"
+    ],
+    "main": [
+      "cn.oneachina.takeshow.Takeshow"
+    ]
+  },
+  "mixins": [
+    "takeshow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

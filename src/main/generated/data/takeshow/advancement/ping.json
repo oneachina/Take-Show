@@ -1,0 +1,30 @@
+{
+  "parent": "takeshow:root",
+  "criteria": {
+    "echo_distortion": {
+      "conditions": {
+        "effects": {
+          "takeshow:echo_distortion": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.takeshow.ping.description"
+    },
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.takeshow.ping.title"
+    }
+  },
+  "requirements": [
+    [
+      "echo_distortion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "takeshow:resonant_pickaxe",
+  "criteria": {
+    "first_pulse": {
+      "conditions": {
+        "durability": {
+          "min": 1
+        },
+        "item": {
+          "items": "takeshow:resonant_pickaxe"
+        }
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.takeshow.first_pulse.description"
+    },
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "advancements.takeshow.first_pulse.title"
+    }
+  },
+  "requirements": [
+    [
+      "first_pulse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

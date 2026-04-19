@@ -1,0 +1,39 @@
+{
+  "parent": "takeshow:ping",
+  "criteria": {
+    "killed_glowing": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:glowing": {}
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.takeshow.no_hiding.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "advancements.takeshow.no_hiding.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_glowing"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

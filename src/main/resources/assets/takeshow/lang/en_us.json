@@ -1,0 +1,17 @@
+{
+  "item.takeshow.echo_charm": "§eEcho Charm",
+  "effect.takeshow.echo_distortion": "Echo Distortion",
+  "creativeTab.takeshow": "TakeShow",
+  "advancements.takeshow.root.title": "Did you hear that?",
+  "advancements.takeshow.root.description": "Obtain an Echo Charm.",
+  "advancements.takeshow.ping.title": "Ping!",
+  "advancements.takeshow.ping.description": "Right-click the Echo Charm once. Totally scientific.",
+  "advancements.takeshow.no_hiding.title": "No Stealth (Even If You Weren't)",
+  "advancements.takeshow.no_hiding.description": "Kill a glowing mob.",
+  "enchantment.takeshow.look_what": "Whatcha Lookin' At?!",
+  "item.takeshow.resonant_pickaxe": "Resonant Pickaxe",
+  "advancements.takeshow.resonant_pickaxe.title": "Ding—Heard That",
+  "advancements.takeshow.resonant_pickaxe.description": "Obtain a Resonant Pickaxe. Yes, it rings. No, you can't turn it off.",
+  "advancements.takeshow.first_pulse.title": "First Ping",
+  "advancements.takeshow.first_pulse.description": "Mine your first block with the Resonant Pickaxe. The underground replies."
+}

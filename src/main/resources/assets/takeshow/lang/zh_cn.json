@@ -1,0 +1,17 @@
+{
+  "item.takeshow.echo_charm": "回响护符",
+  "effect.takeshow.echo_distortion": "回响紊乱",
+  "creativeTab.takeshow": "TakeShow",
+  "advancements.takeshow.root.title": "你听见了吗？",
+  "advancements.takeshow.root.description": "获得回响护符。",
+  "advancements.takeshow.ping.title": "Ping！",
+  "advancements.takeshow.ping.description": "用回响护符右键一下。不是因为手欠，是为了科学。",
+  "advancements.takeshow.no_hiding.title": "不许隐身（哪怕你没隐身）",
+  "advancements.takeshow.no_hiding.description": "击杀一个正在发光的生物。",
+  "enchantment.takeshow.look_what": "瞅什么瞅？！",
+  "item.takeshow.resonant_pickaxe": "鸣响镐",
+  "advancements.takeshow.resonant_pickaxe.title": "叮——我听到了",
+  "advancements.takeshow.resonant_pickaxe.description": "获得一把鸣响镐。它说它很有回声。",
+  "advancements.takeshow.first_pulse.title": "第一声",
+  "advancements.takeshow.first_pulse.description": "用鸣响镐挖出第一镐。注意：地底会回你一句。"
+}

@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.takeshow.look_what"
+  },
+  "max_cost": {
+    "base": 16,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "chest",
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": [
+    "minecraft:leather_chestplate",
+    "minecraft:chainmail_chestplate",
+    "minecraft:iron_chestplate",
+    "minecraft:golden_chestplate",
+    "minecraft:diamond_chestplate",
+    "minecraft:netherite_chestplate",
+    "minecraft:shield"
+  ],
+  "weight": 2
+}
